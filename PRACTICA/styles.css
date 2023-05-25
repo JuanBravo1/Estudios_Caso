@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:paleturquoise;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 7px solid gray;
+    
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+
+  button[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
